@@ -1,3 +1,5 @@
+#!python3
+
 from logzero import logger, logfile
 from sense_hat import SenseHat
 from ephem import readtle, degree
@@ -83,7 +85,7 @@ photo_counter = 1
 start_time = datetime.now()
 now_time = datetime.now()
 # run a loop for (almost) three hours
-while (now_time < start_time + timedelta(minutes=178)):
+while (now_time < start_time + timedelta(minutes=1)):
     try:
         humidity = round(sh.humidity, 4)
         temperature = round(sh.temperature, 4)

@@ -1,4 +1,7 @@
 # Temporary and binary files
+*.jpeg
+*.jpg
+*.csv
 *~
 *.py[cod]
 *.so
